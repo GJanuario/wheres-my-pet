@@ -1,0 +1,15 @@
+#!/bin/sh
+BOLD="\e[1m"
+BOLDRED="\e[1;31m"
+BOLDGREEN="\e[1;32m"
+ENDFORMAT="\e[0m"
+COMMITMESSAGE=$(cat $1)
+COMMITPATTERN="^\[WMP-[0-9][0-9][0-9][0-9]\][[:space:]][A-Z]"
+
+echo "\n${BOLD}Step 3/3${ENDFORMAT}: Validating commit message..."
+
+if ! echo "${COMMITMESSAGE}" | grep ${COMMITPATTERN}
+  then
+    echo "\n${BOLDRED}ERROR! Commit message not following project pattern. Example: \"[WMP-0000] Commit message\""
+    exit 1
+fi
