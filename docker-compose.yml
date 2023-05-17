@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  ui:
+    container_name: wheres-my-pet-ui-container
+    build: ./
+    ports:
+      - '4200:80'
