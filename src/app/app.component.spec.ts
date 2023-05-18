@@ -15,5 +15,7 @@ describe('AppComponent', () => {
     await render(AppComponent);
 
     expect(screen.getByTestId('app-title')).toBeTruthy();
+    expect(screen.getByTestId('button')).toBeTruthy();
+    expect(screen.getByTestId('spinner')).toBeTruthy();
   });
 });
