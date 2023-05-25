@@ -1,5 +1,6 @@
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { TestBed } from '@angular/core/testing';
+import '@angular/localize/init';
 import { render, screen } from '@testing-library/angular';
 import { AppComponent } from './app.component';
 
@@ -16,6 +17,7 @@ describe('AppComponent', () => {
 
     expect(screen.getByTestId('app-title')).toBeTruthy();
     expect(screen.getByTestId('button')).toBeTruthy();
-    expect(screen.getByTestId('spinner')).toBeTruthy();
+    expect(screen.getByTestId('image')).toBeTruthy();
+    expect(screen.getByTestId('date')).toBeTruthy();
   });
 });

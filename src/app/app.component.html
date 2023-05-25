@@ -1,7 +1,9 @@
-<h1 data-testid="app-title">Where's my pet</h1>
+<h1 i18n data-testid="app-title">Title page is {{ title }}</h1>
+
+<img src="../favicon.ico" alt="Alternative text" i18n-alt data-testid="image" />
+
+<p data-testid="date">{{ '10/04/2023' | date }}</p>
 
 <app-button data-testid="button"></app-button>
-
-<mat-spinner [diameter]="50" data-testid="spinner"></mat-spinner>
 
 <router-outlet></router-outlet>

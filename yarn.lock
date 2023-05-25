@@ -264,6 +264,15 @@
   dependencies:
     tslib "^2.3.0"
 
+"@angular/localize@^16.0.3":
+  version "16.0.3"
+  resolved "https://registry.yarnpkg.com/@angular/localize/-/localize-16.0.3.tgz#10c8950bb6581383cd0e4274c669c0d72f4c1a56"
+  integrity sha512-WCo0mtMRpcaLCAiImg6JZ6O4ZDMoirP4/EMvWkP3o8jARSc39L6y+YIw9Z6dXUuZsqRkn96C8sQOPzqHVmtd4A==
+  dependencies:
+    "@babel/core" "7.21.8"
+    glob "8.1.0"
+    yargs "^17.2.1"
+
 "@angular/material@16.0.1":
   version "16.0.1"
   resolved "https://registry.yarnpkg.com/@angular/material/-/material-16.0.1.tgz#f0d871bca1b26ebbcfd791b2abe6a49c270d103d"
@@ -398,7 +407,7 @@
     json5 "^2.2.2"
     semver "^6.3.0"
 
-"@babel/core@^7.11.6", "@babel/core@^7.12.3":
+"@babel/core@7.21.8", "@babel/core@^7.11.6", "@babel/core@^7.12.3":
   version "7.21.8"
   resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.21.8.tgz#2a8c7f0f53d60100ba4c32470ba0281c92aa9aa4"
   integrity sha512-YeM22Sondbo523Sz0+CirSPnbj9bG3P0CdHcBZdqUuaeOaYEFbOLoGU7lebvGP6P5J/WE9wOn7u7C4J9HvS1xQ==
