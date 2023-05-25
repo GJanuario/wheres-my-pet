@@ -1,3 +1,4 @@
+import '@angular/localize/init';
 import { render, screen } from '@testing-library/angular';
 import { ButtonComponent } from './button.component';
 

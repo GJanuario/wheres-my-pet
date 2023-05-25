@@ -1,0 +1,8 @@
+{
+  "locale": "en-US",
+  "translations": {
+    "2900218521876737208": "Title page is {$INTERPOLATION}",
+    "658548551421950624": "Alternative text",
+    "4057214947824829359": "Button component"
+  }
+}
